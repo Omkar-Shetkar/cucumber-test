@@ -1,0 +1,53 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< hellocucumber:hellocucumber >---------------------
+[INFO] Building hellocucumber 1.0.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ hellocucumber ---
+[INFO] Deleting D:\Projects\Practice\hellocucumber\target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ hellocucumber ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory D:\Projects\Practice\hellocucumber\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ hellocucumber ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ hellocucumber ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ hellocucumber ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to D:\Projects\Practice\hellocucumber\target\test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ hellocucumber ---
+[INFO] Surefire report directory: D:\Projects\Practice\hellocucumber\target\surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running hellocucumber.RunCucumberTest
+No features found at [classpath:hellocucumber]
+
+0 Scenarios
+0 Steps
+0m0.200s
+
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.603 sec
+
+Results :
+
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ hellocucumber ---
+[WARNING] JAR will be empty - no content was marked for inclusion!
+[INFO] Building jar: D:\Projects\Practice\hellocucumber\target\hellocucumber-1.0.0-SNAPSHOT.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  3.697 s
+[INFO] Finished at: 2019-04-12T17:09:48+05:30
+[INFO] ------------------------------------------------------------------------
